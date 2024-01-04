@@ -12,7 +12,7 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
         super(Pyqt5_Serial, self).__init__()
         self.setupUi(self)
         self.init()
-        self.setWindowTitle("串口小助手")
+        self.setWindowTitle("串口调试助手（Python+QT5）")
         self.ser = serial.Serial()
         self.port_check()
 
