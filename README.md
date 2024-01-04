@@ -1,3 +1,3 @@
-# Pyserial-Demo
 
-一个简单的串口工具
+
+用Python+Qt5写的串口调试助手
